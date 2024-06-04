@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -15,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;    
     max-width: 600px;
-    height: 300px;
+    height: 400px;
     margin: 100px auto;
 }
 
@@ -25,13 +27,15 @@ body {
     justify-content: space-between;
     background-color: #474956;
     color: white;
-    width: 30%;
+    width: 40%;
     padding: 20px;
     height: 100%;
 }
 
 #titre h1 {
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 #titre hr {
@@ -43,7 +47,9 @@ body {
 }
 
 .titre {
-    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 #user {
@@ -63,24 +69,34 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color: #FFFFFF;
+    font-family: "Roboto" sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: black;
-    padding: 20px;
     height: 100%;
-    width: 70%;
+    width: 60%;
+    padding: 20px;
 }
 
 #texte p {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+
 }
 
 #texte p > span {
-    font-weight: bold;
+    font-family: "Roboto" sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
 }
 
 #menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Roboto" sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 #menu span {
@@ -96,6 +112,4 @@ body {
 
 #image span {
     color: #f1ecec;
-    /* margin-right: 10px;
-    margin-left: 10px; */
 }
